@@ -3,14 +3,6 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-           <head>
-        <title>Hanini App - Simplify Your Service Needs</title>
-        <meta 
-          name="description" 
-          content="Hanini App connects users with reliable providers for seamless service discovery and booking. Download now for convenience and satisfaction."
-        />
-
-      </head>
       <div className='container'>
         <header>
         <img className='logo' src='/images/logo.png' alt="Logo" />
