@@ -1,11 +1,13 @@
 import './App.css';
+import logo from '/public/images/logo.png';
+import phone from '/public/images/phone_1-removebg.png';
 
 function App() {
   return (
     <div className="App">
       <div className='container'>
         <header>
-        <img className='logo' src='/images/logo.png' alt="Logo" />
+        <img className='logo' src={logo} alt="Logo" />
           <h1>Hanini</h1>
         </header>
         <section>
@@ -17,7 +19,7 @@ function App() {
           <a href="https://uca96ec985b4fbca8fae64005e0a.dl.dropboxusercontent.com/cd/0/get/ChozldGuAGUJ6IR5N0QOuYiP5TfY435dRlsCpkZcSFTq6mcFKhPfGJV4tCKmombFJoMq21E6QQ4sDzQSnMtD_z6OLriZZrakA9RIfCTeZkECLJqMqif7JtCMcmkZxzu2HRu7A6iSyvS-mB5XkgFLDMgT2KVkRXTYnj8w5FfI7zAHnw/file?_download_id=1042724845033478976373805150202760739415522474377504493755128501&_log_download_success=1&_notify_domain=www.dropbox.com&dl=1"><button>Download</button></a>
           </div>
 
-          <img className='phone' src="/images/phone_1-removebg.png" alt="Phone Preview" />
+          <img className='phone' src={phone} alt="Phone Preview" />
         </section>
       </div>
     </div>
